@@ -3,13 +3,7 @@
 ## **Project Overview**
 This project demonstrates how to train and use a YOLO (You Only Look Once) model for object detection. The workflow includes converting a video into frames, labeling the frames, training the YOLO model, and using the trained model for object detection on videos or images.
 
-<div align="center">
-   <video controls>
-       <source src="data/Output_video.mp4" type="video/mp4">
-       Your browser does not support the video tag.
-   </video>
-</div>
-
+[![AI Virtual Mouse Demo](https://img.youtube.com/vi/oGDH1FkKNZc/0.jpg)](https://youtu.be/oGDH1FkKNZc)
 
 ---
 
@@ -21,7 +15,7 @@ This project demonstrates how to train and use a YOLO (You Only Look Once) model
 2. **Label the Frames**:
    - Each frame is labeled using the `LabelImg` tool in Python.
    - The labeled data is saved in `.xml` format in the `data/labels` folder.
-
+   - watvh `data/Lable_video.mp4`
    <div align="center">
    <video controls>
        <source src="data/Lable_video.mp4" type="video/mp4">
