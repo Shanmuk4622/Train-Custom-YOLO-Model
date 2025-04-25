@@ -1,0 +1,6 @@
+train: /content/rawData/images/training
+val: /content/rawData/labels/validation
+# number of classes
+nc: 1
+# class names
+names: ['bag']
