@@ -10,7 +10,7 @@ model = YOLO('../weights/best.pt')
 def RGB(event, x, y, flags, param):
     if event == cv2.EVENT_MOUSEMOVE:
         point = [x, y]
-        # print(point)
+        print(point)
 
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)

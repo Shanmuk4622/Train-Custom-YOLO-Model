@@ -131,7 +131,7 @@ Train YOLO Model/
 │   ├── Train_YOLO_Model.ipynb  # Colab notebook for training
 │   ├── xmlConverter.py    # Script to convert XML labels to YOLO format
 ├── weights/               # Folder for YOLO weights
-│   ├── best.pt            # Trained YOLO model
+│   ├── bestOld.pt            # Trained YOLO model
 │   ├── coco1.txt          # Class list
 ```
 
